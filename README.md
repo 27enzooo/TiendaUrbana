@@ -8,11 +8,11 @@ Aplicación Web SPA (Single Page Application) desarrollada en React para la gest
 - **Estilos & UI:** Bootstrap 5
 - **Enrutamiento:** React Router DOM
 - **Persistencia:** LocalStorage (`db.js`)
-- **Testing:** Jest / React Testing Library
+- **Testing:** Karma / Jasmine / React Testing Library (Microsoft Edge)
 
 ## Estructura del Proyecto
 
-text
+```text
 src/
 ├── components/          # Componentes funcionales
 │   ├── AdminView.js     # Panel administrador y métricas
@@ -23,6 +23,6 @@ src/
 │   └── db.js            # Base de datos local e inicialización
 ├── App.css              # Estilos generales
 ├── App.js               # Enrutador principal y estado del carrito
-├── App.test.js          # Suite de 10 pruebas unitarias
+├── App.test.js          # Suite de 10 pruebas unitarias (Jasmine)
 ├── index.css            # Estilos globales
 └── index.js             # Punto de entrada de la aplicación
